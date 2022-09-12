@@ -1,0 +1,62 @@
+version: '3.5'
+
+services:
+  influxdb:
+    image: influxdb:2.4.0
+    env_file:
+     - 'main.env'
+    volumes:
+     - ./influxdb/influx_init.iql:/docker-entrypoint-initdb.d/influx_init.iql
+    ports:
+      - "8086:8086"
+    networks:
+     - grafana-influxdb-network
+  
+  grafana:
+    image: grafana/grafana:9.1.4
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./grafana/provisioning/:/etc/grafana/provisioning/
+    env_file:
+      - 'main.env'
+    networks:
+     - grafana-influxdb-network
+    depends_on:
+      - influxdb
+
+  chronograf:
+    image: chronograf:1.9.4
+    ports:
+      - '8888:8888'
+    depends_on:
+      - influxdb
+    env_file:
+      - 'main.env'
+    networks:
+     - grafana-influxdb-network
+
+  # telegraf:
+  #   image: telegraf:latest
+  #   volumes:
+  #    - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+  #    - /var/run/docker.sock:/var/run/docker.sock:ro
+  #    - /sys:/rootfs/sys:ro
+  #    - /proc:/rootfs/proc:ro
+  #    - /etc:/rootfs/etc:ro
+  #   env_file:
+  #     - ./main.env
+  #   depends_on:
+  #     - influxdb
+  #   networks:
+  #    - grafana-influxdb-network
+
+  jmeter:                
+      image: apache-jmeter
+      build: ./jmeter-docker
+      networks:
+       - grafana-influxdb-network
+
+networks:
+  grafana-influxdb-network:
+    driver: bridge

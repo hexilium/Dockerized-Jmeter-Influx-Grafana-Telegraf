@@ -1,0 +1,182 @@
+2022-09-12 22:44:54,648 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-09-12 22:44:54,682 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.4.3/bin/user.properties
+2022-09-12 22:44:54,683 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.4.3/bin/system.properties
+2022-09-12 22:44:54,684 INFO o.a.j.JMeter: Setting JMeter property: INFLUXDB_HOST=host.docker.internal
+2022-09-12 22:44:54,706 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-09-12 22:44:54,706 INFO o.a.j.JMeter: Version 5.4.3
+2022-09-12 22:44:54,707 INFO o.a.j.JMeter: java.version=1.8.0_345
+2022-09-12 22:44:54,707 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-09-12 22:44:54,708 INFO o.a.j.JMeter: os.name=Linux
+2022-09-12 22:44:54,708 INFO o.a.j.JMeter: os.arch=amd64
+2022-09-12 22:44:54,709 INFO o.a.j.JMeter: os.version=5.10.102.1-microsoft-standard-WSL2
+2022-09-12 22:44:54,709 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-09-12 22:44:54,709 INFO o.a.j.JMeter: java.awt.headless=true
+2022-09-12 22:44:54,710 INFO o.a.j.JMeter: Max memory     =7432306688
+2022-09-12 22:44:54,710 INFO o.a.j.JMeter: Available Processors =8
+2022-09-12 22:44:54,718 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-09-12 22:44:54,719 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-09-12 22:44:54,719 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.4.3
+2022-09-12 22:44:54,719 INFO o.a.j.JMeter: user.dir  =/opt/apache-jmeter-5.4.3
+2022-09-12 22:44:54,720 INFO o.a.j.JMeter: PWD       =/opt/apache-jmeter-5.4.3
+2022-09-12 22:44:54,720 INFO o.a.j.JMeter: IP: 172.17.0.2 Name: 98a13ce1ad4d FullName: 98a13ce1ad4d
+2022-09-12 22:44:54,729 INFO o.a.j.s.FileServer: Default base='/opt/apache-jmeter-5.4.3'
+2022-09-12 22:44:54,731 INFO o.a.j.s.FileServer: Set new base='/mnt/jmeter'
+2022-09-12 22:44:54,948 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-09-12 22:44:54,996 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-09-12 22:44:55,005 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-09-12 22:44:55,026 INFO o.a.j.s.SaveService: Loading file: /mnt/jmeter/demoblaze.jmx
+2022-09-12 22:44:55,208 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-09-12 22:44:55,208 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-09-12 22:44:55,209 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-09-12 22:44:55,210 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-09-12 22:44:55,210 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-09-12 22:44:55,210 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-09-12 22:44:55,368 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-09-12 22:44:55,369 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-09-12 22:44:55,370 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-09-12 22:44:55,371 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-09-12 22:44:55,429 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-09-12 22:44:55,446 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-09-12 22:44:55,448 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-09-12 22:44:55,449 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-09-12 22:44:55,459 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-09-12 22:44:55,459 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-09-12 22:44:56,005 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2022-09-12 22:44:56,007 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2022-09-12 22:44:56,391 INFO o.a.j.JMeter: Running test (1663015496391)
+2022-09-12 22:44:56,517 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-09-12 22:44:56,518 INFO o.a.j.e.StandardJMeterEngine: Starting 23 threads for group jp@gc - Ultimate Thread Group.
+2022-09-12 22:44:56,518 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-09-12 22:44:56,519 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 23
+2022-09-12 22:44:56,618 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-09-12 22:44:56,619 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-09-12 22:44:57,520 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-10
+2022-09-12 22:44:57,558 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 98a13ce1ad4d
+2022-09-12 22:44:57,564 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-09-12 22:44:57,747 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-09-12 22:44:57,757 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-09-12 22:44:57,757 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-09-12 22:44:57,792 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-09-12 22:44:57,795 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-09-12 22:44:57,795 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-09-12 22:44:58,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-9
+2022-09-12 22:44:59,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-8
+2022-09-12 22:45:00,023 INFO o.a.j.r.Summariser: summary +     13 in 00:00:04 =    3.6/s Avg:   313 Min:   190 Max:   840 Err:     0 (0.00%) Active: 3 Started: 3 Finished: 0
+2022-09-12 22:45:00,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-7
+2022-09-12 22:45:01,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-6
+2022-09-12 22:45:02,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-5
+2022-09-12 22:45:03,520 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-4
+2022-09-12 22:45:04,520 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-3
+2022-09-12 22:45:05,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-2
+2022-09-12 22:45:06,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-09-12 22:45:30,005 INFO o.a.j.r.Summariser: summary +   1187 in 00:00:30 =   39.6/s Avg:   227 Min:    27 Max:  1363 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2022-09-12 22:45:30,006 INFO o.a.j.r.Summariser: summary =   1200 in 00:00:34 =   35.7/s Avg:   228 Min:    27 Max:  1363 Err:     0 (0.00%)
+2022-09-12 22:46:00,026 INFO o.a.j.r.Summariser: summary +   1306 in 00:00:30 =   43.5/s Avg:   220 Min:    28 Max: 10910 Err:     2 (0.15%) Active: 10 Started: 10 Finished: 0
+2022-09-12 22:46:00,027 INFO o.a.j.r.Summariser: summary =   2506 in 00:01:04 =   39.4/s Avg:   224 Min:    27 Max: 10910 Err:     2 (0.08%)
+2022-09-12 22:46:30,010 INFO o.a.j.r.Summariser: summary +   1451 in 00:00:30 =   48.4/s Avg:   214 Min:    27 Max: 12945 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2022-09-12 22:46:30,012 INFO o.a.j.r.Summariser: summary =   3957 in 00:01:34 =   42.3/s Avg:   220 Min:    27 Max: 12945 Err:     2 (0.05%)
+2022-09-12 22:47:00,015 INFO o.a.j.r.Summariser: summary +   1307 in 00:00:30 =   43.6/s Avg:   227 Min:    25 Max:  4652 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2022-09-12 22:47:00,022 INFO o.a.j.r.Summariser: summary =   5264 in 00:02:04 =   42.6/s Avg:   222 Min:    25 Max: 12945 Err:     2 (0.04%)
+2022-09-12 22:47:08,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-15
+2022-09-12 22:47:10,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-14
+2022-09-12 22:47:12,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-13
+2022-09-12 22:47:14,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-12
+2022-09-12 22:47:16,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-11
+2022-09-12 22:47:30,012 INFO o.a.j.r.Summariser: summary +   1718 in 00:00:30 =   57.3/s Avg:   224 Min:    25 Max:  4483 Err:     0 (0.00%) Active: 15 Started: 15 Finished: 0
+2022-09-12 22:47:30,013 INFO o.a.j.r.Summariser: summary =   6982 in 00:02:34 =   45.4/s Avg:   222 Min:    25 Max: 12945 Err:     2 (0.03%)
+2022-09-12 22:48:00,022 INFO o.a.j.r.Summariser: summary +   1731 in 00:00:30 =   57.7/s Avg:   258 Min:    25 Max:  1846 Err:     0 (0.00%) Active: 15 Started: 15 Finished: 0
+2022-09-12 22:48:00,023 INFO o.a.j.r.Summariser: summary =   8713 in 00:03:04 =   47.4/s Avg:   230 Min:    25 Max: 12945 Err:     2 (0.02%)
+2022-09-12 22:48:30,028 INFO o.a.j.r.Summariser: summary +   1682 in 00:00:30 =   56.1/s Avg:   266 Min:    24 Max:  1115 Err:     0 (0.00%) Active: 15 Started: 15 Finished: 0
+2022-09-12 22:48:30,029 INFO o.a.j.r.Summariser: summary =  10395 in 00:03:34 =   48.7/s Avg:   235 Min:    24 Max: 12945 Err:     2 (0.02%)
+2022-09-12 22:49:00,012 INFO o.a.j.r.Summariser: summary +   1813 in 00:00:30 =   60.5/s Avg:   247 Min:    25 Max:  3122 Err:     0 (0.00%) Active: 15 Started: 15 Finished: 0
+2022-09-12 22:49:00,016 INFO o.a.j.r.Summariser: summary =  12208 in 00:04:04 =   50.1/s Avg:   237 Min:    24 Max: 12945 Err:     2 (0.02%)
+2022-09-12 22:49:17,769 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-23
+2022-09-12 22:49:19,019 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-22
+2022-09-12 22:49:20,269 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-21
+2022-09-12 22:49:21,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-20
+2022-09-12 22:49:22,770 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-19
+2022-09-12 22:49:24,019 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-18
+2022-09-12 22:49:25,269 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-17
+2022-09-12 22:49:26,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-16
+2022-09-12 22:49:30,004 INFO o.a.j.r.Summariser: summary +   2001 in 00:00:30 =   66.7/s Avg:   254 Min:    27 Max:  1113 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:49:30,005 INFO o.a.j.r.Summariser: summary =  14209 in 00:04:34 =   51.9/s Avg:   239 Min:    24 Max: 12945 Err:     2 (0.01%)
+2022-09-12 22:50:00,009 INFO o.a.j.r.Summariser: summary +   2514 in 00:00:30 =   83.8/s Avg:   273 Min:    26 Max:   821 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:50:00,012 INFO o.a.j.r.Summariser: summary =  16723 in 00:05:04 =   55.1/s Avg:   244 Min:    24 Max: 12945 Err:     2 (0.01%)
+2022-09-12 22:50:30,003 INFO o.a.j.r.Summariser: summary +   2527 in 00:00:30 =   84.3/s Avg:   271 Min:    27 Max:  1000 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:50:30,015 INFO o.a.j.r.Summariser: summary =  19250 in 00:05:34 =   57.7/s Avg:   248 Min:    24 Max: 12945 Err:     2 (0.01%)
+2022-09-12 22:51:00,016 INFO o.a.j.r.Summariser: summary +   2538 in 00:00:30 =   84.6/s Avg:   271 Min:    26 Max:   715 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:51:00,017 INFO o.a.j.r.Summariser: summary =  21788 in 00:06:04 =   59.9/s Avg:   251 Min:    24 Max: 12945 Err:     2 (0.01%)
+2022-09-12 22:51:30,001 INFO o.a.j.r.Summariser: summary +   2513 in 00:00:30 =   83.8/s Avg:   273 Min:    25 Max:   913 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:51:30,003 INFO o.a.j.r.Summariser: summary =  24301 in 00:06:34 =   61.7/s Avg:   253 Min:    24 Max: 12945 Err:     2 (0.01%)
+2022-09-12 22:52:00,018 INFO o.a.j.r.Summariser: summary +   2506 in 00:00:30 =   83.5/s Avg:   273 Min:    27 Max:  1393 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:52:00,024 INFO o.a.j.r.Summariser: summary =  26807 in 00:07:04 =   63.3/s Avg:   255 Min:    24 Max: 12945 Err:     2 (0.01%)
+2022-09-12 22:52:30,018 INFO o.a.j.r.Summariser: summary +   2520 in 00:00:30 =   84.0/s Avg:   273 Min:    25 Max:  1071 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:52:30,025 INFO o.a.j.r.Summariser: summary =  29327 in 00:07:34 =   64.7/s Avg:   256 Min:    24 Max: 12945 Err:     2 (0.01%)
+2022-09-12 22:53:00,001 INFO o.a.j.r.Summariser: summary +   2548 in 00:00:30 =   85.0/s Avg:   269 Min:    25 Max:  2528 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:53:00,006 INFO o.a.j.r.Summariser: summary =  31875 in 00:08:04 =   65.9/s Avg:   257 Min:    24 Max: 12945 Err:     2 (0.01%)
+2022-09-12 22:53:30,001 INFO o.a.j.r.Summariser: summary +   2565 in 00:00:30 =   85.5/s Avg:   267 Min:    28 Max:  1197 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:53:30,002 INFO o.a.j.r.Summariser: summary =  34440 in 00:08:34 =   67.1/s Avg:   258 Min:    24 Max: 12945 Err:     2 (0.01%)
+2022-09-12 22:54:00,006 INFO o.a.j.r.Summariser: summary +   2571 in 00:00:30 =   85.7/s Avg:   267 Min:    29 Max:  2043 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:54:00,007 INFO o.a.j.r.Summariser: summary =  37011 in 00:09:04 =   68.1/s Avg:   259 Min:    24 Max: 12945 Err:     2 (0.01%)
+2022-09-12 22:54:30,001 INFO o.a.j.r.Summariser: summary +   2491 in 00:00:30 =   83.0/s Avg:   275 Min:    28 Max:  1546 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:54:30,005 INFO o.a.j.r.Summariser: summary =  39502 in 00:09:34 =   68.9/s Avg:   260 Min:    24 Max: 12945 Err:     2 (0.01%)
+2022-09-12 22:55:00,018 INFO o.a.j.r.Summariser: summary +   2492 in 00:00:30 =   83.0/s Avg:   275 Min:    28 Max:  1072 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:55:00,020 INFO o.a.j.r.Summariser: summary =  41994 in 00:10:04 =   69.6/s Avg:   261 Min:    24 Max: 12945 Err:     2 (0.00%)
+2022-09-12 22:55:30,024 INFO o.a.j.r.Summariser: summary +   2500 in 00:00:30 =   83.3/s Avg:   275 Min:    29 Max:  1640 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:55:30,025 INFO o.a.j.r.Summariser: summary =  44494 in 00:10:34 =   70.2/s Avg:   261 Min:    24 Max: 12945 Err:     2 (0.00%)
+2022-09-12 22:56:00,002 INFO o.a.j.r.Summariser: summary +   2557 in 00:00:30 =   85.3/s Avg:   268 Min:    27 Max:   675 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:56:00,011 INFO o.a.j.r.Summariser: summary =  47051 in 00:11:04 =   70.9/s Avg:   262 Min:    24 Max: 12945 Err:     2 (0.00%)
+2022-09-12 22:56:30,017 INFO o.a.j.r.Summariser: summary +   2459 in 00:00:30 =   81.9/s Avg:   279 Min:    26 Max:   752 Err:     0 (0.00%) Active: 23 Started: 23 Finished: 0
+2022-09-12 22:56:30,020 INFO o.a.j.r.Summariser: summary =  49510 in 00:11:34 =   71.4/s Avg:   263 Min:    24 Max: 12945 Err:     2 (0.00%)
+2022-09-12 22:56:36,539 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-19
+2022-09-12 22:56:36,540 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-19
+2022-09-12 22:56:36,550 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-23
+2022-09-12 22:56:36,552 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-23
+2022-09-12 22:56:36,552 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-9
+2022-09-12 22:56:36,553 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-9
+2022-09-12 22:56:36,558 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-11
+2022-09-12 22:56:36,559 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-11
+2022-09-12 22:56:36,577 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-2
+2022-09-12 22:56:36,578 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-2
+2022-09-12 22:56:36,588 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-12
+2022-09-12 22:56:36,588 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-12
+2022-09-12 22:56:36,599 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-22
+2022-09-12 22:56:36,600 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-22
+2022-09-12 22:56:36,607 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-6
+2022-09-12 22:56:36,608 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-6
+2022-09-12 22:56:36,615 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-3
+2022-09-12 22:56:36,629 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-3
+2022-09-12 22:56:36,638 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-17
+2022-09-12 22:56:36,640 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-17
+2022-09-12 22:56:36,652 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-16
+2022-09-12 22:56:36,652 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-16
+2022-09-12 22:56:36,669 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-18
+2022-09-12 22:56:36,669 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-18
+2022-09-12 22:56:36,677 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-15
+2022-09-12 22:56:36,678 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-15
+2022-09-12 22:56:36,687 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-14
+2022-09-12 22:56:36,688 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-14
+2022-09-12 22:56:36,712 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-21
+2022-09-12 22:56:36,714 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-21
+2022-09-12 22:56:36,729 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-20
+2022-09-12 22:56:36,730 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-20
+2022-09-12 22:56:36,760 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-1
+2022-09-12 22:56:36,761 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-09-12 22:56:36,797 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-8
+2022-09-12 22:56:36,797 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-8
+2022-09-12 22:56:36,819 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-4
+2022-09-12 22:56:36,819 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-4
+2022-09-12 22:56:36,869 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-10
+2022-09-12 22:56:36,869 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-10
+2022-09-12 22:56:36,899 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-5
+2022-09-12 22:56:36,900 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-5
+2022-09-12 22:56:36,928 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-7
+2022-09-12 22:56:36,928 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-7
+2022-09-12 22:56:36,948 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-13
+2022-09-12 22:56:36,948 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-13
+2022-09-12 22:56:36,949 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-09-12 22:56:36,950 INFO o.a.j.v.b.BackendListener: Worker ended
+2022-09-12 22:56:36,960 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2022-09-12 22:56:36,962 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2022-09-12 22:56:37,001 INFO o.a.j.r.Summariser: summary +    572 in 00:00:07 =   81.9/s Avg:   274 Min:    30 Max:   744 Err:     0 (0.00%) Active: 0 Started: 23 Finished: 23
+2022-09-12 22:56:37,002 INFO o.a.j.r.Summariser: summary =  50082 in 00:11:41 =   71.5/s Avg:   263 Min:    24 Max: 12945 Err:     2 (0.00%)
