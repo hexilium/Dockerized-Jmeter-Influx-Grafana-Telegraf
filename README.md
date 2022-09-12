@@ -10,8 +10,11 @@ user: admin
 pass: admin123
 
 ### Default ports:
+
 Grafana - 3000
+
 InfluxDB - 8086
+
 Chronograph - 8888
 
 # Setup &amp; run the container
