@@ -3,11 +3,16 @@ Automated dockerized module with connected Influx &amp; Grafana with Jmeter out 
 
 
 
-### Base auth for Grafana &amp; InfluxDB:
+### Default auth for Grafana &amp; InfluxDB:
 
 user: admin 
 
 pass: admin123
+
+### Default ports:
+Grafana - 3000
+InfluxDB - 8086
+Chronograph - 8888
 
 # Setup &amp; run the container
 ```
