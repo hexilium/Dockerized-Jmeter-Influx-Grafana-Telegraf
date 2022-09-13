@@ -24,8 +24,18 @@ I was running all on wsl environment.
 docker-compose up -d
 ```
 
+# To stop the container
+```
+docker-compose down
+```
+
 
 # Running Jmeter test with an example script
 ```
 ./run-jmeter.sh
+```
+
+# Running Jmeter test with your own script
+```
+./run-specific-jmeter-script.sh your_script_path.jmx
 ```
