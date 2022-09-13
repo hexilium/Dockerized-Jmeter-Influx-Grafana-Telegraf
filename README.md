@@ -17,6 +17,8 @@ InfluxDB - 8086
 
 Chronograph - 8888
 
+I was running all on wsl environment.
+
 # Setup &amp; run the container
 ```
 docker-compose up -d
